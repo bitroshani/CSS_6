@@ -43,19 +43,35 @@ nav ul li a:hover{
     background-color: white;
     color: black;
 }
+nav label i{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
 
 
 @media (max-width: 580px){
     nav ul{
         position: fixed;
         top: 80px;
-        left: 10px;
-        height: 50%;
+        left: 0px;
+        height: 25px;
+        background: #111;
         width: 100%;
+        /* display: block; */
+        text-align: center;
     }
-    nav ul li{
-        margin: 40px 0;
-        color: bisque;
+    nav ul li a{
+        font-size: 20px;
+        display: block;
+        padding: 0;
+
+    }
+    nav ul li a:hover{
+        background: none;
+        color: cyan;
+        
     }
 }
 
