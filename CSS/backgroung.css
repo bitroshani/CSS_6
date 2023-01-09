@@ -1,0 +1,43 @@
+body{
+    background-image: url(../photo/nature.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: multiply;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment :fixed;
+}
+.box{
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin: 10px;
+}
+.box1{
+    background-image: url(../photo/1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.box2{
+    background-image: url(../photo/2.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: multiply;
+}
+.box3{
+    background-image: url(../photo/3.jpg);
+    background-size: cover;
+    background-position: bottom right;
+}
+.abc{
+    background-image: url(../photo/1.jpg);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: top center;
+    float: left;
+    overflow: auto;
+    background-attachment:local;
+}
